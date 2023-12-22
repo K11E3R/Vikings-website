@@ -192,3 +192,10 @@ html, body {
 .logo-footer{
     height: 100px;
 }
+
+.medi-icones {
+    margin-right: 5px;
+    color: #6435c9;
+    text-decoration: none;
+}
+
