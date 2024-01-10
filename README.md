@@ -3,52 +3,54 @@
 
 
 
-# DB 
 
 
-## Objectif: (facilitate communication / automation)
+# DB DEFINE
+
+
+# Objective: Facilitate Communication and Automation
 
 ## Entities
 
-- Manager
-- Coach (stage / full time / part time / benev / service civique)
-- Client (athlete / loisir / ecole de natation) (couleur) (nom de groupe)
+- **Manager**: Responsible for managing the swimming club.
+- **Coach**: Responsible for coaching the clients.
+- **Client**: Includes different types of clients, such as athletes, recreational swimmers, and swimming school participants. Each client belongs to a specific group and has a group color.
 
 ## Parameters
 
-- Client (defined by group)
+### Client (defined by group)
 
-- Manager: planifie piscine:
-        - Disponibilite (temp / ligne / groupe (coach))
-        - Planifie le coache:
-                - La seance en fonction du coach
-                - Le groupe de client
-                - Definir plan de travail
-        - Planifie minibus:
-                - Disponibilite (temp / coach / event)
-        - Planifie client:
-                - Inscription (assign to group)
-                - Planification d'event
+- **Manager**: Plans pool activities, including:
+        - Availability: Specifies the time, lane, and group (coach) availability.
+        - Coaching sessions: Defines sessions based on the coach, group of clients, and workout plan.
+        - Minibus usage: Plans the availability of minibus for transportation to events.
+        - Client activities: Handles client registration, group assignment, and event scheduling.
 
-- Visualisation du plan du club
+- **Club Plan Visualization**: Provides a visual representation of the club's plans.
 
-- Client:
-        - Date de la reinscription
-        - Changement plan (alerte)
+- **Client**:
+        - Reinscription date: Specifies the date for client re-registration.
+        - Plan changes: Alerts clients about any changes in their plans.
 
-- Coach:
-        - Planification du client dans l'event
-        - Plan de travail
-        - Responsabilite stagere:
-                - Plan stagere
+- **Coach**:
+        - Client scheduling in events: Manages the scheduling of clients for events.
+        - Workout planning: Plans workouts for clients.
+        - Intern responsibility: Assigns responsibilities to interns.
 
-- Entre coach <=> client (chat)
-- Entre manager <=> coach (chat)
-- Entre manager => client (informative)
+- **Communication**:
+        - Between coach and client: Enables chat communication between coaches and clients.
+        - Between manager and coach: Enables chat communication between managers and coaches.
+        - Manager to client: Sends informative messages from the manager to clients.
 
-- Groupe defined client => assign coach by manager
+- Group-defined client => coach assignment by manager: The manager assigns coaches to clients based on their group.
 
-- Manager definie la disponibilite de la piscine et les lignes dans chaque piscine
-- Tout piscine dispose de 1 a n lignes
-- Tout client est assigner a un groupe automatiquement dans l'inscription
-- 30min minimum + 15min per slide
+- Manager defines pool availability and lanes in each pool.
+- Each pool has 1 to n lanes.
+- Every client is automatically assigned to a group upon registration.
+- Minimum session duration is 30 minutes, with an additional 15 minutes per slide.
+
+
+# TODO
+
+[x] part_db
+[] case study
