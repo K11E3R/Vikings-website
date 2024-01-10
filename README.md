@@ -2,7 +2,7 @@
 
 - [ ] Design the user interface for the mobile app
 - [ ] Implement user authentication and registration functionality
-- [ ] Create a database schema for storing user data
+- [x] Create a database schema for storing user data
 - [ ] Develop the functionality to add, edit, and delete tasks
 - [ ] Implement task filtering and sorting options
 - [ ] Add notifications for task reminders
