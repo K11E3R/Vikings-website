@@ -8,7 +8,7 @@
 - [ ] Add notifications for task reminders
 - [ ] Test the app on different mobile devices and screen sizes
 - [ ] Optimize the app for performance and responsiveness
-- [ ] Deploy the app to a mobile app store
+- [ ] Deploy the app to a mobile app store / play store / club host service
 
 
 
