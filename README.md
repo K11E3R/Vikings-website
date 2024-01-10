@@ -13,7 +13,7 @@
 
 
 
-# [ ]DB DEFINE
+# DB DEFINE (not all done ❌)
 
 
 # Objective: Facilitate Communication and Automation
