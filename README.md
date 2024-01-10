@@ -26,8 +26,6 @@
 
 ## Parameters
 
-### Client (defined by group)
-
 - **Manager**: Plans pool activities, including:
         - Availability: Specifies the time, lane, and group (coach) availability.
         - Coaching sessions: Defines sessions based on the coach, group of clients, and workout plan.
@@ -51,7 +49,7 @@
         - Manager to client: Sends informative messages from the manager to clients.
 
 - Group-defined client => coach assignment by manager: The manager assigns coaches to clients based on their group.
-
+- Client (defined by group)
 - Manager defines pool availability and lanes in each pool.
 - Each pool has 1 to n lanes.
 - Every client is automatically assigned to a group upon registration.
