@@ -1,4 +1,4 @@
-## TODO vikings project
+## TODO vikings project (MOBILE APP)
 
 - [ ] Design the user interface for the mobile app
 - [ ] Implement user authentication and registration functionality
