@@ -18,7 +18,7 @@
 
 # Objective: Facilitate Communication and Automation
 
-## Entities
+## Main Entities
 
 - **Manager**: Responsible for managing the swimming club.
 - **Coach**: Responsible for coaching the clients.
