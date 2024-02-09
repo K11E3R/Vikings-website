@@ -3,18 +3,14 @@
 - [ ] Design the user interface for the mobile app
 - [ ] Implement user authentication and registration functionality
 - [x] Create a database schema for storing user data
-- [ ] Develop the functionality to add, edit, and delete tasks
+- [x] Develop the functionality to add, edit, and delete tasks
 - [ ] Implement task filtering and sorting options
 - [ ] Add notifications for task reminders
 - [ ] Test the app on different mobile devices and screen sizes
 - [ ] Optimize the app for performance and responsiveness
 - [ ] Deploy the app to a mobile app store / play store / club host service
 
-
-
-
 # DB DEFINE (not all done ❌)
-
 
 # Objective: Facilitate Communication and Automation
 
@@ -54,4 +50,3 @@
 - Each pool has 1 to n lanes.
 - Every client is automatically assigned to a group upon registration.
 - Minimum session duration is 30 minutes, with an additional 15 minutes per slide.
-

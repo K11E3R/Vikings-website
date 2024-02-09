@@ -1,11 +1,12 @@
 <?php include_once '../includes/header.php'; ?>
 <?php include_once '../config/Users_retrieve.php'; ?>
+<div class ="users_cs">
 <h1>Users</h1>
 
 <?php 
     $accounts = getAllAccounts();
     if (count($accounts) > 0) {
-        echo "<table>";
+        echo "<table class='users_table'>";
         echo "<tr><th>Account ID</th><th>Username</th><th>Password</th><th>Email</th><th>Role</th></tr>";
         foreach ($accounts as $account) {
             echo "<tr>";
@@ -31,6 +32,7 @@
 <form action="../config/add_r_accounts.php" method="post">
     <button type="submit">Add Users</button>
 </form>
-
+</div>
 <?php include_once '../includes/footer.php'; ?>
 
+</html>
