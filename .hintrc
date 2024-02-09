@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/forms": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-webkit-text-size-adjust"
+        ]
+      }
+    ],
+    "axe/name-role-value": "off",
+    "disown-opener": "off",
+    "meta-viewport": "off"
+  }
+}
