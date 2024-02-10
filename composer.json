@@ -1,0 +1,7 @@
+{
+    "name": "yourusername/vikings",
+    "description": "A website for the Vikings Club, showcasing their activities, events, and community involvement.",
+    "require": {
+        // Add dependencies here if your project uses any
+    }
+}
