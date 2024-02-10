@@ -3,7 +3,9 @@
 - [ ] Design the user interface for the mobile app
 - [ ] Implement user authentication and registration functionality
 - [x] Create a database schema for storing user data
-- [ ] Develop the functionality to add, edit, and delete tasks
+
+- [X] Develop the functionality to add, edit, and delete tasks
+
 - [ ] Implement task filtering and sorting options
 - [ ] Add notifications for task reminders
 - [ ] Test the app on different mobile devices and screen sizes
@@ -13,7 +15,9 @@
 
 
 
+
 # DB DEFINE (not all done ❌)
+
 
 
 # Objective: Facilitate Communication and Automation
