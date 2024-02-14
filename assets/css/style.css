@@ -68,11 +68,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     -webkit-box-shadow: none;
     box-shadow: none; }
   .btn.btn-primary {
-    background: #1A374D;
-    border-color: #1A374D; }
+    background: #4382b3;
+    border-color: #4382b3; }
     .btn.btn-primary:hover {
-      border-color: #1f425c;
-      background: #1f425c; }
+      border-color: rgb(105 152 171);
+      background: rgb(105 152 171); }
   .btn.btn-outline-white {
     border: 2px solid #ffffff; }
     .btn.btn-outline-white:hover {
@@ -154,7 +154,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 }
 
 .logo-img{
-  height: 4vw;
+  height: 75px;
 }
 .logo {
   font-size: 24px;
@@ -168,7 +168,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   top: 0;
   z-index: 9;
   width: 100%; 
-  background: linear-gradient(0deg, rgb(37 112 185 / 77%) 0%, rgb(105 152 171) 100%);
+  background: linear-gradient(0deg, rgb(47 118 183 / 88%) 0%, rgb(105 152 171 / 88%) 100%);
 }
 .site-navigation{
   display: flex;
@@ -618,7 +618,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
         z-index: 1; }
 
 .untree_co-section {
-  padding: 70px 0 0 0; }
+  padding: 35px 0 35px 0; }
 
 .media-thumb {
   position: relative;
@@ -1189,13 +1189,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .gal-item {
   display: block;
   margin-bottom: 8px; 
-  text-align-last:center;}
+  text-align:center;}
   .gal-item img {
     border-radius: 4px;
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
-    opacity: 1; }
+    opacity: 1; 
+    width: 50%;
+  }
   .gal-item:hover img {
     opacity: .5; }
 
@@ -1376,7 +1378,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        background: #1A374D;
+        background: #6998ab;
         display: inline-block;
         position: relative;
         color: #ffffff;
@@ -1439,4 +1441,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   text-align: center;
   background: linear-gradient(0deg, rgb(37 112 185 / 77%) 0%, rgb(105 152 171) 100%);
   color: white;
+}
+
+.partner_media{
+  text-align: center;
+  padding: 25px 0 0 0;
+}
+
+.partner_title{
+  font-size: 30px !important;
 }

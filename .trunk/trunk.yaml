@@ -20,6 +20,7 @@ lint:
     - prettier
     - git-diff-check
   enabled:
+    - actionlint@1.6.26
     - checkov@3.2.18
     - markdownlint@0.39.0
     - oxipng@9.0.0

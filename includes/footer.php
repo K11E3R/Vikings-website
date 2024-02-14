@@ -37,10 +37,10 @@
                         </div>
                         <div class="widget">
                             <ul class="list-unstyled social">
-                                <li><a href="#"><span class="icon-twitter"></span></a></li>
-                                <li><a href="#"><span class="icon-instagram"></span></a></li>
-                                <li><a href="#"><span class="icon-facebook"></span></a></li>
-                                <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                                <li><a href="https://twitter.com/vikingsderouen"><span class="icon-twitter"></span></a></li>
+                                <li><a href="https://www.instagram.com/vikingsderouen/"><span class="icon-instagram"></span></a></li>
+                                <li><a href="https://www.facebook.com/vikingsderouen/"><span class="icon-facebook"></span></a></li>
+                                <li><a href="https://fr.linkedin.com/company/club-des-vikings-de-rouen"><span class="icon-linkedin"></span></a></li>
                             </ul>
                         </div>
                     </div>
@@ -48,9 +48,9 @@
                         <div class="widget">
                             <h3 class="heading">Pages</h3>
                             <ul class="links list-unstyled">
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">À propos</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="<?= $basePath ?>pages/histoire.php">Blog</a></li>
+                                <li><a href="<?= $basePath ?>index.php">À propos</a></li>
+                                <li><a href="<?= $basePath ?>pages/contact.php">Contact</a></li>
                             </ul>
                         </div>
                     </div>
@@ -58,7 +58,7 @@
                         <div class="widget">
                             <h3 class="heading">Contact</h3>
                             <ul class="list-unstyled quick-info links">
-                                <li class="email"><a href="#">mail@example.com</a></li>
+                                <li class="email"><a href="#">clubvikingsrouen@gmail.com</a></li>
                                 <li class="phone"><a href="#">+33 9 50 52 93 14</a></li>
                                 <li class="address"><a href="#">Centre sportif Guy Boissière, Avenue Jacques chastellain, 76100 Rouen</a></li>
                             </ul>

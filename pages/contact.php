@@ -74,7 +74,7 @@
                     <div class="quick-contact-item d-flex align-items-center mb-4">
                         <span class="flaticon-mail"></span>
                         <address class="text">
-                            mail@example.com
+                            clubvikingsrouen@gmail.com
                         </address>
                     </div>
                 </div>

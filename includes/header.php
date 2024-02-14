@@ -7,7 +7,7 @@
 	<?php
 		$currentURL = $_SERVER['REQUEST_URI'];
 		$basePath = strpos($currentURL, '/pages/') !== false ? '../' : '';
-
+		
 		require_once($basePath . 'lib/functions.php');
 
 		$pageTitle = getPageTitle($currentURL);
@@ -16,10 +16,10 @@
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="author" content="YH">
-	<link rel="shortcut icon" href="<?= $basePath ?>assets/img/images/img2/CVR.png">
+	<meta name="author" content="Vikings Club">
+	<link rel="shortcut icon" href="<?= $basePath ?>assets\img\main-logo\logo_club_vikings.png">
 
-	<meta name="description" content="" />
+	<meta name="description" content="Club Vikings Rouen 🌊" />
 	<meta name="keywords" content="bootstrap, bootstrap4" />
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,26 +54,27 @@
 	<nav class="site-nav">
 		<div class="container">
 			<div class="site-navigation">
-				<a href="<?= $basePath ?>index.php" class="logo m-0"><img class="logo-img" src="<?= $basePath ?>assets/img/images/img2/CVR.png" alt="Vikings"></a>
+				<a href="<?= $basePath ?>index.php" class="logo m-0"><img class="logo-img" src="<?= $basePath ?>assets\img\main-logo\logo_club_vikings.png" alt="Vikings"></a>
 
 				<ul class="js-clone-nav d-none d-lg-inline-block text-left site-menu float-right">
 					<li class="active"><a href="<?= $basePath ?>index.php">ACCUEIL</a></li>
 					<li class="has-children">
 						<a href="#">LE CLUB</a>
 						<ul class="dropdown">
-							<li><a href="users.php">Elements</a></li> <!-- to change ! -->	
-							<li><a href="#">Menu One</a></li>
+							<li><a href="<?= $basePath ?>pages\histoire.php">Histoire</a></li> <!-- to change ! -->	
+							<li><a href="<?= $basePath ?>pages\structure-sportive.php">Structures Sportives</a></li>
+							<li><a href="<?= $basePath ?>pages\comite-de-direction.php">Comite de direction</a></li>
 							<li class="has-children">
-								<a href="#">Menu Two</a>
+								<a href="#">Sport Etude</a>
 								<ul class="dropdown">
-									<li><a href="#">Sub Menu One</a></li>
-									<li><a href="#">Sub Menu Two</a></li>
+									<li><a href="#">Le Caf</a></li>
+									<li><a href="#">Condidature elite</a></li>
+									<li><a href="#">Classe natation</a></li>
 								</ul>
 							</li>
-							<li><a href="#">Menu Three</a></li>
 						</ul>
 					</li>
-					<li><a href="<?= $basePath ?>pages/activity.php">ACTIVITÉS</a></li>
+					<li><a href="<?= $basePath ?>pages/users.php">ACTIVITÉS</a></li>
 					<li><a href="https://vikingsderouen.swim-community.fr/Pages/Login.aspx" target="_blank">INSCRIPTIONS</a></li>
 					<li><a href="<?= $basePath ?>pages/partners.php">PARTENAIRES</a></li>
 					<li><a href="<?= $basePath ?>pages/shop.php">BOUTIQUE</a></li>

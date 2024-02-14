@@ -12,7 +12,7 @@ function generateRandomString($length = 8) {
 
 for ($i = 1; $i <= 30; $i++) {
     $username = "user{$i}";
-    $password = password_hash(generateRandomString(), PASSWORD_DEFAULT); // Random password
+    $password = generateRandomString(); //password_hash(generateRandomString(), PASSWORD_DEFAULT);
     $email = "user{$i}@example.com";
     
     if ($i <= 2) {
