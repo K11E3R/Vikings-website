@@ -11,7 +11,11 @@ function getPageTitle($currentURL) {
         'contact.php' => 'Contact',
         'users.php' => 'Users',
         'histoire.php' => 'Histoire',
-        
+        'structure-sportive.php' => 'Structure Sportive',
+        'comite-de-direction.php' => 'Comité Directeur',
+        'la-caf' => 'La CAF',
+        'classe-natation.php' => 'Classe Natation',
+        'candidature-elite.php' => 'Candidature Elite',
     ];
 
     foreach ($pages as $page => $title) {
