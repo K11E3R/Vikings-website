@@ -9,7 +9,9 @@ function getPageTitle($currentURL) {
         'partners.php' => 'Partenaire',
         'shop.php' => 'Boutique',
         'contact.php' => 'Contact',
-        'users.php' => 'Users'
+        'users.php' => 'Users',
+        'histoire.php' => 'Histoire',
+        
     ];
 
     foreach ($pages as $page => $title) {
