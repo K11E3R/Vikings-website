@@ -15,7 +15,7 @@ function getPageTitle($currentURL) {
         'comite-de-direction.php' => 'Comité Directeur',
         'la-caf' => 'La CAF',
         'classe-natation.php' => 'Classe Natation',
-        'candidature-elite.php' => 'Candidature Elite',
+        'candidature-elite.php' => 'Candidature Elite'
     ];
 
     foreach ($pages as $page => $title) {

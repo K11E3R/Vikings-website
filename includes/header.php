@@ -68,9 +68,9 @@
 							<li class="has-children">
 								<a href="#">Sport Etude</a>
 								<ul class="dropdown">
-									<li><a href="#">Le Caf</a></li>
-									<li><a href="#">Condidature elite</a></li>
-									<li><a href="#">Classe natation</a></li>
+									<li><a href="<?= $basePath ?>pages\la-caf.php">Le Caf</a></li>
+									<li><a href="<?= $basePath ?>pages\candidature-elite.php">Condidature elite</a></li>
+									<li><a href="<?= $basePath ?>pages\classe-natation.php">Classe natation</a></li>
 								</ul>
 							</li>
 						</ul>
