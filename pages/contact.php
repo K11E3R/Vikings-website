@@ -18,7 +18,7 @@
                 <div class="col-lg-6 mx-auto text-center">
                     <div class="intro-wrap">
                         <h1 class="mb-0">Contactez-nous</h1>
-                        <p class="text-white">Pour toute demande d'information ou de partenariat, n'hésitez pas à nous contacter. Nous sommes là pour répondre à vos questions et vous aider à plonger dans l'univers passionnant du water-polo.</p>
+                        <p class="text-white">Pour toute demande d'information ou de partenariat, n'hésitez pas à nous contacter. Nous sommes là pour répondre à vos questions et vous aider à plonger dans l'univers passionnant du natation.</p>
                     </div>
                 </div>
             </div>

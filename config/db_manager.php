@@ -17,11 +17,11 @@ try {
 function getAllPartenaires() {
     global $pdo;
     $query = $pdo->query("SELECT * FROM Partenaire");
-    return $query->fetchAll(PDO::FETCH_ASSOC);
+    return $query->fetchAll(PDO::FETCH_ASSOC);    
 }
 
 function getPartenaireById($partenaire_id) {
-    global $pdo;
+    global $pdo;     
     $stmt = $pdo->prepare("SELECT * FROM Partenaire WHERE partenaire_id = :partenaire_id");
     $stmt->bindParam(':partenaire_id', $partenaire_id, PDO::PARAM_INT);
     $stmt->execute();
@@ -52,41 +52,43 @@ function deletePartenaire($partenaire_id) {
     return $stmt->execute();
 }
 
-// CRUD Operations for Produit Table
-function getAllProduits() {
+// CRUD Operations for Product Table
+function getAllProducts() {
     global $pdo;
-    $query = $pdo->query("SELECT * FROM Produit");
+    $query = $pdo->query("SELECT * FROM Product");
     return $query->fetchAll(PDO::FETCH_ASSOC);
 }
 
-function getProduitById($produit_id) {
+function getProductById($Product_id) {
     global $pdo;
-    $stmt = $pdo->prepare("SELECT * FROM Produit WHERE produit_id = :produit_id");
-    $stmt->bindParam(':produit_id', $produit_id, PDO::PARAM_INT);
+    $stmt = $pdo->prepare("SELECT * FROM Produit WHERE Product_id = :Product_id");
+    $stmt->bindParam(':Product_id', $Product_id, PDO::PARAM_INT);
     $stmt->execute();
     return $stmt->fetch(PDO::FETCH_ASSOC);
 }
 
-function addProduit($data) {
+# Product CRUD
+
+function addProduct($data) {
     global $pdo;
-    $stmt = $pdo->prepare("INSERT INTO Produit (nom, description, prix)
-                          VALUES (:nom, :description, :prix)");
+    $stmt = $pdo->prepare("INSERT INTO Produit (nom, description, prix, stock, image_url, date_creation, partenaire_id)
+                          VALUES (:nom, :description, :prix, :stock, :image_url, NOW(), :partenaire_id)");
     $stmt->execute($data);
     return $pdo->lastInsertId();
 }
 
-function updateProduit($produit_id, $data) {
+function updateProduct($Product_id, $data) {
     global $pdo;
     $stmt = $pdo->prepare("UPDATE Produit SET nom = :nom, description = :description, prix = :prix
-                          WHERE produit_id = :produit_id");
-    $data['produit_id'] = $produit_id;
+                          WHERE Product_id = :Product_id");
+    $data['Product_id'] = $Product_id;
     return $stmt->execute($data);
 }
 
-function deleteProduit($produit_id) {
+function deleteProduct($Product_id) {
     global $pdo;
-    $stmt = $pdo->prepare("DELETE FROM Produit WHERE produit_id = :produit_id");
-    $stmt->bindParam(':produit_id', $produit_id, PDO::PARAM_INT);
+    $stmt = $pdo->prepare("DELETE FROM Produit WHERE Product_id = :Product_id");
+    $stmt->bindParam(':Product_id', $Product_id, PDO::PARAM_INT);
     return $stmt->execute();
 }
 

@@ -1,5 +1,5 @@
 <?php include_once '../includes/header.php'; ?>
-<?php include_once '../config/Users_retrieve.php'; ?>
+<?php include_once '../config/users_retrieve.php'; ?>
 
 <div class ="users_cs">
 <h1>Users</h1>

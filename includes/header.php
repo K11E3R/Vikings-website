@@ -77,7 +77,6 @@
 					</li>
 					<li><a href="<?= $basePath ?>pages/users.php">ACTIVITÉS</a></li>
 					<li><a href="https://vikingsderouen.swim-community.fr/Pages/Login.aspx" target="_blank">INSCRIPTIONS</a></li>
-					<li><a href="<?= $basePath ?>pages/partners.php">PARTENAIRES</a></li>
 					<li><a href="<?= $basePath ?>pages/shop.php">BOUTIQUE</a></li>
 					<li><a href="<?= $basePath ?>pages/contact.php">CONTACT</a></li>
 				</ul>
